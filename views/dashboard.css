@@ -1,0 +1,202 @@
+body{
+    background-image: url("bg_dashboard2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100px;
+	margin:0;
+}
+
+.welcome {
+	font-size: 200%;
+	position:absolute;
+	top:-15px;
+	right:40px;
+	font-family: cursive;
+}
+.logout {
+
+	margin-top: 4px;
+	background-color:black;
+	border-radius:4px;
+	border:2px solid rgb(132, 185, 192);
+	color:#fff;
+	width:10%;
+	font-size:16px;
+	position: absolute;
+	left: 650px;
+	bottom: 40px;
+	padding: 5px;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+	background-color: #3d8ea2;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: 180%;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn1:hover, .dropbtn1:focus {
+	background-color: #4d4d4d;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+	position: absolute;
+	display: inline-block;
+	top: 20px;
+	left: 10px;
+	
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 162px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show1 {display:block;}
+
+  /* 2 */
+
+  .dropbtn2 {
+	background-color: #3d8ea2;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: 180%;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+  }
+  
+  .dropbtn2:hover, .dropbtn2:focus {
+	background-color: #4d4d4d;
+  }
+  
+  .dropdown2 {
+	position: absolute;
+	display: inline-block;
+	top:20px ;
+	left:187px;
+	
+  }
+  
+  .dropdown-content2 {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 186px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+	
+  }
+  
+  .dropdown-content2 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content2 a:hover {
+	  background-color: #ddd}
+  
+  .show2 {display:block;}
+
+  /* 3 */
+
+  .dropbtn3 {
+	background-color: #3d8ea2;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: 180%;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+
+  }
+  
+  .dropbtn3:hover, .dropbtn3:focus {
+	background-color: #4d4d4d;
+  }
+  
+  .dropdown3 {
+	position: absolute;
+	display: inline-block;
+	top: 20px;
+	left: 388px;
+	
+  }
+  
+  .dropdown-content3 {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 176%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 5px;
+	border:2px solid rgb(0, 0, 0);
+  }
+  
+  .dropdown-content3 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content3 a:hover {background-color: #ddd}
+  
+  .show3 {display:block;}
+  
+.ajax{
+	
+	margin-top: 4px;
+	background-color:#5fb7e0;
+	border-radius:4px;
+	border:2px solid rgb(0, 0, 0);
+	color:rgb(0, 0, 0);
+	width:20%;
+	font-size:16px;
+	position: absolute;
+	left: 600px;
+	top: 250px;
+	padding: 5px;
+}
+ .table{
+	 width: 40%;
+ }
